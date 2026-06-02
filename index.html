@@ -4,7 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Kikaoru</title>
+  <title>About — Kikaoru</title>
+
+  <!-- 浏览器标签页左边的小图标 favicon -->
+  <link rel="icon" type="image/png" href="kikaoru_logo_512.png">
+  <link rel="apple-touch-icon" href="kikaoru_logo_512.png">
 
   <style>
     * {
@@ -15,7 +19,6 @@
       --lavender-bg: #f3efff;
       --lavender-main: #7d5fff;
       --lavender-deep: #5f42cc;
-      --lavender-soft: #a18cff;
       --text-main: #332c46;
       --text-soft: #6e6680;
     }
@@ -42,44 +45,11 @@
       gap: 13px;
     }
 
-    .logo-icon {
-      display: block;
-      flex-shrink: 0;
-    }
-
-    .logo-icon.small {
+    .site-logo {
       width: 62px;
       height: 62px;
-    }
-
-    .logo-icon.big {
-      width: 140px;
-      height: 140px;
-      margin: 0 auto 26px;
-    }
-
-    .logo-ring {
-      fill: none;
-      stroke: var(--lavender-main);
-      stroke-width: 9;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .logo-inner {
-      fill: none;
-      stroke: var(--lavender-deep);
-      stroke-width: 8;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .logo-leaf {
-      fill: none;
-      stroke: var(--lavender-main);
-      stroke-width: 7;
-      stroke-linecap: round;
-      stroke-linejoin: round;
+      object-fit: contain;
+      flex-shrink: 0;
     }
 
     .brand-text h1 {
@@ -137,6 +107,14 @@
 
     .content {
       max-width: 520px;
+    }
+
+    .big-logo {
+      width: 140px;
+      height: 140px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 26px;
     }
 
     h2 {
@@ -208,15 +186,7 @@
 <body>
   <header>
     <div class="brand">
-      <svg class="logo-icon small" viewBox="0 0 120 120" aria-label="Kikaoru logo">
-        <path class="logo-ring" d="M48 13 C25 18 12 36 12 60 C12 84 31 103 55 107" />
-        <path class="logo-ring" d="M73 13 C96 18 109 36 109 60 C109 84 90 103 66 107" />
-
-        <path class="logo-inner" d="M59 93 C58 73 58 50 59 27" />
-        <path class="logo-leaf" d="M59 56 C70 40 84 31 94 36 C101 40 98 51 87 56 C77 61 67 60 59 56" />
-        <path class="logo-leaf" d="M58 62 C72 70 82 83 88 99" />
-        <path class="logo-leaf" d="M57 62 C45 74 30 79 22 73 C15 68 18 58 29 55 C40 52 49 57 57 62" />
-      </svg>
+      <img class="site-logo" src="kikaoru_logo_512.png" alt="Kikaoru Logo">
 
       <div class="brand-text">
         <h1>Kikaoru</h1>
@@ -238,15 +208,7 @@
       </div>
 
       <div class="content">
-        <svg class="logo-icon big" viewBox="0 0 120 120" aria-label="Kikaoru logo">
-          <path class="logo-ring" d="M48 13 C25 18 12 36 12 60 C12 84 31 103 55 107" />
-          <path class="logo-ring" d="M73 13 C96 18 109 36 109 60 C109 84 90 103 66 107" />
-
-          <path class="logo-inner" d="M59 93 C58 73 58 50 59 27" />
-          <path class="logo-leaf" d="M59 56 C70 40 84 31 94 36 C101 40 98 51 87 56 C77 61 67 60 59 56" />
-          <path class="logo-leaf" d="M58 62 C72 70 82 83 88 99" />
-          <path class="logo-leaf" d="M57 62 C45 74 30 79 22 73 C15 68 18 58 29 55 C40 52 49 57 57 62" />
-        </svg>
+        <img class="big-logo" src="kikaoru_logo_512.png" alt="Kikaoru Logo">
 
         <h2>About Kikaoru</h2>
 
