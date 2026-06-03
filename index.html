@@ -6,7 +6,6 @@
 
   <title>About — Kikaoru</title>
 
-  <!-- 浏览器标签页左边的小图标 favicon -->
   <link rel="icon" type="image/png" href="kikaoru_logo_512.png">
   <link rel="apple-touch-icon" href="kikaoru_logo_512.png">
 
@@ -17,17 +16,35 @@
 
     :root {
       --lavender-bg: #f3efff;
+      --lavender-light: #faf8ff;
       --lavender-main: #7d5fff;
       --lavender-deep: #5f42cc;
-      --text-main: #332c46;
-      --text-soft: #6e6680;
+      --lavender-muted: #9b8be8;
+      --text-main: #302946;
+      --text-soft: #6f6782;
+      --text-light: #9a92b5;
     }
 
     body {
       margin: 0;
-      font-family: Arial, "Microsoft YaHei", "PingFang SC", sans-serif;
       background: #ffffff;
       color: var(--text-main);
+
+      font-family:
+        "Avenir Next",
+        "SF Pro Text",
+        "Inter",
+        "Segoe UI",
+        "PingFang SC",
+        "Hiragino Sans GB",
+        "Microsoft YaHei",
+        Arial,
+        sans-serif;
+
+      font-size: 16px;
+      letter-spacing: 0.01em;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
     }
 
     header {
@@ -36,7 +53,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 38px;
+      padding: 0 42px;
     }
 
     .brand {
@@ -54,24 +71,29 @@
 
     .brand-text h1 {
       margin: 0;
-      font-size: 17px;
+      font-size: 18px;
+      line-height: 1.1;
       color: var(--text-main);
-      font-weight: bold;
+      font-weight: 700;
+      letter-spacing: -0.02em;
     }
 
     .brand-text p {
-      margin: 3px 0 0;
+      margin: 4px 0 0;
       font-size: 13px;
       color: var(--text-soft);
+      font-weight: 500;
+      letter-spacing: 0.02em;
     }
 
     nav a {
-      margin-left: 28px;
+      margin-left: 30px;
       text-decoration: none;
       color: var(--text-main);
-      font-size: 14px;
-      font-weight: bold;
-      letter-spacing: 1px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      transition: color 0.2s ease;
     }
 
     nav a:first-child {
@@ -88,13 +110,14 @@
       justify-content: center;
       align-items: flex-start;
       padding-top: 105px;
+      background: linear-gradient(180deg, #ffffff 0%, var(--lavender-light) 100%);
     }
 
     .about {
       display: flex;
       align-items: center;
-      gap: 78px;
-      max-width: 880px;
+      gap: 82px;
+      max-width: 900px;
       padding: 0 30px;
     }
 
@@ -103,51 +126,67 @@
       text-align: center;
       font-size: 108px;
       line-height: 1;
+      filter: drop-shadow(0 12px 24px rgba(125, 95, 255, 0.12));
     }
 
     .content {
-      max-width: 520px;
+      max-width: 530px;
     }
 
     .big-logo {
-      width: 140px;
-      height: 140px;
+      width: 142px;
+      height: 142px;
       object-fit: contain;
       display: block;
-      margin: 0 auto 26px;
+      margin: 0 auto 28px;
+      filter: drop-shadow(0 12px 22px rgba(125, 95, 255, 0.16));
     }
 
     h2 {
       color: var(--lavender-deep);
-      font-size: 31px;
-      font-weight: normal;
-      margin: 0 0 18px;
+      font-family:
+        Georgia,
+        "Times New Roman",
+        "Songti SC",
+        "STSong",
+        serif;
+      font-size: 35px;
+      font-weight: 400;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      margin: 0 0 20px;
     }
 
     p {
       font-size: 16px;
-      line-height: 1.75;
+      line-height: 1.82;
       margin: 0 0 18px;
-      color: #4f4a5f;
+      color: #514b63;
+      font-weight: 400;
     }
 
     .link {
       color: var(--lavender-deep);
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 700;
       display: block;
       margin-top: 18px;
+      letter-spacing: 0.01em;
+      transition: color 0.2s ease;
     }
 
     .link:hover {
+      color: var(--lavender-main);
       text-decoration: underline;
     }
 
     footer {
       text-align: center;
-      color: #9a92b5;
+      color: var(--text-light);
       font-size: 13px;
-      padding: 40px 20px;
+      font-weight: 500;
+      padding: 42px 20px;
+      background: var(--lavender-light);
     }
 
     @media (max-width: 760px) {
@@ -160,10 +199,11 @@
 
       nav a {
         margin: 0 10px;
+        font-size: 12px;
       }
 
       main {
-        padding-top: 60px;
+        padding-top: 62px;
       }
 
       .about {
@@ -177,7 +217,11 @@
       }
 
       h2 {
-        font-size: 28px;
+        font-size: 31px;
+      }
+
+      p {
+        font-size: 15px;
       }
     }
   </style>
