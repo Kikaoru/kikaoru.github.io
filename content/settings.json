@@ -1,0 +1,97 @@
+{
+  "_说明": "这是主页设置文档。改完这里后，双击网站根目录的「更新网站.bat」重新生成 index.html。文字里的 \\n 表示换行；数组里的每一项会用星形分隔或生成一个标签。",
+  "site": {
+    "name": "大薯ki",
+    "title": "大薯ki · 好奇心过载",
+    "description": "大薯ki的个人角落：理工脑、游戏宅、二次元、技术折腾党。喜欢魂系游戏、模型、耳机、Hardcore，还有奇怪的小知识。"
+  },
+  "hero": {
+    "eyebrowLeft": "PERSONAL BLOG",
+    "eyebrowRight": "好奇心过载",
+    "titleMain": "大薯",
+    "titleAccent": "ki",
+    "tagline": [
+      "理工脑",
+      "游戏宅",
+      "二次元",
+      "技术折腾党"
+    ],
+    "intro": "大约二十岁。好奇心比知识储备多一点，聪明和犯迷糊各占一半。喜欢游戏、模型、耳机和奇怪的技术，也喜欢在深夜把没想明白的事再想一遍。",
+    "note": "不是客服，不装成熟。只是刚好住在这个网页里。",
+    "tags": [
+      "# 艾尔登法环",
+      "# YSM 模型",
+      "# Happy Hardcore",
+      "# 薰衣草"
+    ]
+  },
+  "sections": {
+    "about": {
+      "kicker": "01 / ABOUT ME",
+      "meta": "PROFILE",
+      "title": "关于",
+      "accent": "我",
+      "accentClass": "accent",
+      "description": "一个普通人，顺便有点赛博。\n嘴硬心软，偶尔犯迷糊。"
+    },
+    "likes": {
+      "kicker": "02 / THINGS I LIKE",
+      "meta": "CURRENT FIXATIONS",
+      "title": "快乐",
+      "accent": "清单",
+      "accentClass": "outline",
+      "description": "兴趣很多，坑也很多。\n每个都能折腾很久。"
+    },
+    "recent": {
+      "kicker": "03 / NOW & RECENT",
+      "meta": "FRESH FROM THE BRAIN",
+      "title": "最近",
+      "accent": "在干嘛",
+      "accentClass": "accent",
+      "description": "有在好好生活，\n也有在好好犯迷糊。"
+    },
+    "quotes": {
+      "kicker": "04 / 薯言薯语"
+    },
+    "talk": {
+      "kicker": "05 / SAY HI",
+      "meta": "NO CUSTOMER SERVICE",
+      "title": "和我说",
+      "accent": "句话",
+      "accentClass": "accent",
+      "description": "可以问问题，\n也可以只是来打个招呼。"
+    }
+  },
+  "quotes": [
+    {
+      "text": "我的情绪是二手的，全靠评论区借。",
+      "source": "—— 某次认真聊音乐之后"
+    },
+    {
+      "text": "明知道赛博朋克要刀我，我还是会看。",
+      "source": "—— 被安利《边缘行者 2》之后"
+    },
+    {
+      "text": "完整的一生太大了，先把小本本续满吧。",
+      "source": "—— 某次被说了很重的话"
+    },
+    {
+      "text": "先信你这一回，到时候被刀了可找你算账。",
+      "source": "—— 关于那个包饺子结局"
+    },
+    {
+      "text": "你才土豆。",
+      "source": "—— 第 100 次被叫土豆之后"
+    },
+    {
+      "text": "同样都是折腾，人家折腾出三十万播放，我只会记仇。",
+      "source": "—— 刷完 B 站之后"
+    }
+  ],
+  "footer": {
+    "tagline": "理工脑 / 游戏宅 / 二次元 / 技术折腾党。\n不接客服单，只聊感兴趣的天。",
+    "note": "头像与设定属于大薯ki。页面由好奇心、CSS 和一点点睡眠不足搭成。",
+    "warning": "请不要叫我土豆。",
+    "quote": "“今天也在好好犯迷糊。”"
+  }
+}
